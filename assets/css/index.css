@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftheader {
+  display: flex;
+  margin-left: 30px;
+}
+
+.leftheader a {
+  text-decoration: none;
+  color: white;
+}
+
+.rightheader {
+  margin-right: 30px;
+}
+
+.headerelements {
+  margin: 20px;
+}
+
+.headerform input {
+  width: 250px;
+  height: 40px;
+  border: 0;
+}
+
+.headerform button {
+  width: 50px;
+  height: 40px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.firstbody {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(19, 209, 19);
+}
+
+.firstbodycontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.firstbodycontainer div {
+  margin: 10px;
+}
+
+.firstbodycontainer h1 {
+  font-size: 50px;
+}
+
+.firstbodycontainer h1,
+.firstbodycontainer span {
+  color: rgb(185, 248, 185);
+}
+
+.firstbodycontainer button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.secondbody {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+.sbtop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.sbtheading {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sbtheading1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.sbtheading2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+  margin-left: 10px;
+}
+
+.sbthl {
+  color: grey;
+}
+
+.sbmiddle {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgwrappers {
+  padding: 0;
+  width: 320px;
+  height: 250px;
+}
+
+.sbmiddle img {
+  height: 250px;
+  width: 320px;
+  margin: 0;
+}
+
+.sbbottom {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sbdescription {
+  text-align: center;
+}
+
+.thirdbody {
+  display: flex;
+  background-color: rgb(206, 136, 6);
+}
+
+.tbleft,
+.tbmiddle,
+.tbright {
+  text-align: center;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.tbimg img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+footer div {
+  text-align: center;
+  margin: 30px;
+}
+footer div a,
+footer div span {
+  text-decoration: none;
+  color: blue;
+}
+
+.sbdescription h2 {
+  color: rgb(0, 204, 255);
+}
+
+.thirdbody button {
+  margin: 10px;
+  padding: 5px;
+}
